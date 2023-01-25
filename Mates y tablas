@@ -1,0 +1,56 @@
+%Inline math form
+In physics, the mass-energy equivalence is stated 
+by the equation $E=mc^2$, discovered in 1905 by Albert Einstein.
+
+\begin{math}
+E=mc^2
+\end{math}
+
+%Display math form
+The mass-energy equivalence is described by the famous equation
+\[ E=mc^2 \] discovered in 1905 by Albert Einstein. 
+
+In natural units ($c = 1$), the formula expresses the identity
+\begin{equation}
+E=m
+\end{equation}
+
+
+%Esta es la forma para subindices 
+$a_b$
+%Esta es la forma para elevar 
+$a^b$
+%Esta es la forma para integrales 
+$\int$
+$\int_0^1$ %Con sus respectivos limites 
+%Esta es la forma de escribir una fracción 
+$\frac{a}{b}$
+%Las letras griegas se escriben por su nombre
+$\omega$, $\Delta$  %Si se quieren mayusculas se pone la primera en mayuscula
+%Los operadores (funciones) se escriben con backslash 
+$\sin(\beta)$, $\cos(\alpha)$, $\log(x)$
+
+%Haciendo una tabla 
+\begin{center}
+\begin{tabular}{c c c}
+ cell1 & cell2 & cell3 \\ 
+ cell4 & cell5 & cell6 \\  
+ cell7 & cell8 & cell9    
+\end{tabular}
+\end{center}
+
+%Haciendo tabla con bordes 
+%hline nos da las lines horizontales 
+%Los dos backslashes nos dan el salto de linea
+%El tabular define las lineas verticales 
+\begin{center}
+\begin{tabular}{|c|c|c|} 
+ \hline
+ cell1 & cell2 & cell3 \\ 
+\hline
+ cell4 & cell5 & cell6 \\ 
+\hline
+ cell7 & cell8 & cell9 \\ 
+ \hline
+\end{tabular}
+\end{center}
